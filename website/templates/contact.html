@@ -1,5 +1,36 @@
 <!-- your html code here -->
-<div bg-lightclass="contact bg-light">
-    <p class="fs-5 fw-bold">Contact</p>
-    <span> Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. </span>
+<div class="container-fluid bg-white pb-5">
+    <div class="col-10 mx-auto">
+        <p class="display-4 fw-bold pt-4 mb-3">Contact</p>
+        <p class="mb-2 fs-4">
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        </p>
+
+        <div class="bg-light border rounded p-4 col-7 mx-auto">
+            <form>
+                <div class="row mb-4 align-items-center">
+                    <label for="email" class="col-sm-3 col-form-label fw-bold text-sm-end">Your E-mail</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control" id="email" placeholder="Your email">
+                    </div>
+                </div>
+
+                <div class="row mb-4 align-items-start">
+                    <label for="message" class="col-sm-3 col-form-label fw-bold text-sm-end pt-2">Your message</label>
+                    <div class="col-sm-9">
+                        <textarea class="form-control" id="message" rows="5"
+                            placeholder="Please enter your message here..."></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary btn-lg px-4 py-2">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
 </div>
